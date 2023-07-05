@@ -12,7 +12,7 @@ REST API built with [Java Spring Boot](http://projects.spring.io/spring-boot/) t
 ## APIs
 - /contact/*
 
-  - Contains endpoints to send contact requests to my personal email address using SendGrid's APIs. Used by my portfolio website for users to send contact requests to me. Also includes endpoints to fetch past requests from my MySQL database.
+  - Contains endpoints to send contact requests to my personal email address using [SendGrid](https://sendgrid.com/)'s APIs. Used by my portfolio website for users to send contact requests to me. Also includes endpoints to fetch past requests from my MySQL database.
 
 - /apikey/*
 
