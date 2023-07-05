@@ -1,0 +1,52 @@
+{
+  "4000": {
+    "code": 4000,
+    "message": "Invalid request body",
+    "httpStatus": 400
+  },
+  "4004": {
+    "code": 4004,
+    "message": "Not Found",
+    "httpStatus": 200
+  },
+  "6000": {
+    "code": 6000,
+    "message": "Error saving contact request to database",
+    "httpStatus": 500
+  },
+  "6001": {
+    "code": 6001,
+    "message": "Error fetching contact requests from database",
+    "httpStatus": 500
+  },
+  "6002": {
+    "code": 6002,
+    "message": "Error saving API Key to database",
+    "httpStatus": 500
+  },
+  "6003": {
+    "code": 6003,
+    "message": "Error fetching API Key from database",
+    "httpStatus": 500
+  },
+  "7000": {
+    "code": 7000,
+    "message": "Error sending email with SendGrid API",
+    "httpStatus": 500
+  },
+  "7001": {
+    "code": 7001,
+    "message": "Email failed to send with SendGrid API",
+    "httpStatus": 500
+  },
+  "8000": {
+    "code": 8000,
+    "message": "Error generating a new API Key",
+    "httpStatus": 500
+  },
+  "9999": {
+    "code": 9999,
+    "message": "Unidentified internal server error",
+    "httpStatus": 500
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "properties": [
+    {
+      "name": "server.env",
+      "type": "java.lang.String",
+      "description": "The environment that the server is deployed in"
+    },
+    {
+      "name": "cors.whitelist.contactcontroller",
+      "type": "java.lang.String",
+      "description": "The cors whitelist for the contact controller"
+    },
+    {
+      "name": "sendgrid.apikey",
+      "type": "java.lang.String",
+      "description": "API Key for the Sendgrid API"
+    },
+    {
+      "name": "sendgrid.templateid.contactrequest",
+      "type": "java.lang.String",
+      "description": "Sendgrid template ID for the contact request email"
+    },
+    {
+      "name": "sendgrid.templateid.notificationemail",
+      "type": "java.lang.String",
+      "description": "Sendgrid template ID for the notification email"
+    },
+    {
+      "name": "sendgrid.templateid.summaryemail",
+      "type": "java.lang.String",
+      "description": "Sendgrid template ID for the summary email"
+    },
+    {
+      "name": "schedule.weekly.summaryemail",
+      "type": "java.lang.String",
+      "description": "The schedule that the summary email should be sent at (cron)"
+    }
+  ]
+}
